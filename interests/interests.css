@@ -1,0 +1,149 @@
+body{
+    background-color: #e0e0e0;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333333;
+    padding-top: 10px;
+}
+
+
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f7f7f7;
+}
+
+#interests{
+    background-color: #e0e0e0;
+    border: 10px solid #e0e0e0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#interests h2{
+    color: #333333;
+}
+
+/**/
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#music-stats{
+    display: flex;
+    justify-content: center;
+}
+
+.stats{
+    border: 5px #1DB954 ridge;
+    margin: 10px;
+    line-height: 180%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 500px;
+    padding-right: 20px;
+    font-size: 120%;
+    height: 500px;
+}
+
+h3{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#artists{
+    display: flex;
+    flex-direction: column;
+}
+.artist-image{
+    width: 220px;
+    height: 136px;
+    margin: 10px;
+    border: 10px #1DB954 ridge;
+
+}
+
+.link{
+    color: #1DB954;
+}
+
+#mtb-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mtb-image{
+    width: 30%;
+    height: 20%;
+    border: 10px #8B4513 ridge;
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    align-self: center;
+    margin: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: 5px #8B4513 ridge;
+    border-radius: 10%;
+}
+
+.video-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-img{
+    width: 300px;
+    height: 300px;
+    border: 10px #0e7a0d ridge;
+}
+
+.caption{
+    margin: 10px;
+    border: 5px #0e7a0d ridge;
+    height: 300px;
+    
+}
+
+.caption p{
+    border: none;
+    padding-bottom: 10px;
+}
+
+.caption h3{
+    font-size: 180%;
+}
+
+.game-link{
+    color: #0e7a0d;
+}
+
+#academics:hover{
+    background-color: #e0e0e0;
+    border: 10px solid #e0e0e0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#aboutMe:hover{
+    background-color: #e0e0e0;
+    border: 10px solid #e0e0e0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#links:hover{
+    background-color: #e0e0e0;
+    border: 10px solid #e0e0e0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
